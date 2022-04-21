@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="javabuttonlesson.css">
+    <script src="javabuttonlesson.js" defer></script>
+</head>
+<body>
+    <div>
+        <p id="red">clicking a button to create an alert</p>
+        <button onclick="changeColor()">Click to me change the color of the p tag</button>
+        <button onclick="alert('You clicked the button!')">Click me</button>
+    </div>
+    <div>
+        <p id="gone">clicking a button to make p tag disappear</p>
+        <button onclick="dissapear()">Click me</button>
+    </div>
+    <div>
+        <p>click a button increase or decrease the number below</p>
+        <p class="numbers">100</p>
+        <p class="numbers">70</p>
+        <p class="numbers">80</p>
+        <p class="numbers">99999</p>
+        <p class="numbers">704</p>
+        <button onclick="increase()">increase</button>
+        <button onclick="decrease()">decrease</button>        
+    </div>
+    <div>
+        <p>hover over image to change the image</p>
+        <img src="images/chicken.jpg" alt="" onmouseover="changeImage(this)">
+    </div>
+    <div>
+        <p>click the next / previous button will change the image</p>
+        <button onclick="changeBack()">previous</button>
+        <button onclick="nextImage()">next</button>
+        <br>
+        <img src="images/chicken.jpg" alt="" id="lastImage">
+    </div>
+</body>
+</html>

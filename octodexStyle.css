@@ -1,0 +1,40 @@
+.container {
+    background-color: lightgray;
+    border-top: 5px solid black;
+    padding: 10px 20px;
+    width: 1000px;
+}
+h1.title {
+    text-align: center;
+    font-size: 40px;
+}
+img.octocat {
+    height: 200px;
+}
+.top {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+}
+.mid {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+}
+.bottom {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+}
+p {
+    text-align: center;
+}
